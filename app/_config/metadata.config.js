@@ -12,17 +12,17 @@ export const rootMetadata = {
   referrer: 'origin-when-cross-origin',
   keywords: ['Design', 'Develope', 'Freelance'],
   authors: [
-    { name: 'Ali Bagheri', url: 'https://www.github.com/alibagheri2079' },
+    { name: 'Yuvraj Gupta', url: 'https://www.github.com/YuvrajGupta1808' },
   ],
-  creator: 'Ali Bagheri',
-  publisher: 'Ali Bagheri',
+  creator: 'Yuvraj Gupta',
+  publisher: 'Yuvraj Gupta',
   twitter: {
     card: 'summary_large_image',
     title: 'Yuvraj Gupta',
     description:
       'Helping brands thrive in the digital world. Located in The Netherlands. Delivering tailor-made digital designs and building interactive websites from scratch. © Code by Dennis',
     siteId: '1467726470533754880',
-    creator: '@AliBagheri2079',
+    creator: '@YuvrajGupta1808',
     creatorId: '1467726470533754880',
     images: {
       url: 'https://yuvraj-gupta-portfolio.vercel.app/screenshot.png',
