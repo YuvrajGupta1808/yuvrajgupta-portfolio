@@ -3,7 +3,7 @@ name: Azure Static Web Apps CI/CD
 on:
   push:
     branches:
-      - main  # Runs when you push to main
+      - main
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches:
@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Build and Deploy Job
     steps:
-      # 1. Pull down your repo code
+      # 1. Checkout code
       - uses: actions/checkout@v3
 
       # 2. Setup Node.js
@@ -27,17 +27,17 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      # 4. Build your Next.js app
+      # 4. Build with Next.js (creates /out folder)
       - name: Build
         run: npm run build
 
-      # 5. Deploy build to Azure
+      # 5. Deploy to Azure
       - name: Deploy to Azure Static Web Apps
         uses: Azure/static-web-apps-deploy@v1
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_API_TOKEN }}
-          repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for PR integration
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
-          app_location: "/"        # your project root
-          api_location: ""         # leave empty unless you have an API
-          output_location: ".next" # Next.js build output folder
+          app_location: "/"     # Project root
+          api_location: ""      # No API
+          output_location: "out" # 👈 Use static export output
