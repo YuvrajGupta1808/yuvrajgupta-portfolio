@@ -19,7 +19,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "postbuild": "cp staticwebapp.config.json out/"
   },
   "dependencies": {
     "@studio-freight/lenis": "^1.0.29",

@@ -36,7 +36,7 @@ export function Header() {
         <MagneticButton variant="default" size="xxl" className="flex ">
           <ImageWrapper2>
             <Image
-              src="/images/yuvraj_headshots.png"
+              src="/yuvraj_headshots.png"
               alt="Yuvraj Gupta Headshot"
               fill
               className="object-cover"
