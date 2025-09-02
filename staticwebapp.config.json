@@ -1,11 +1,29 @@
 {
+    "routes": [
+        {
+            "route": "/images/*",
+            "serve": "/images/:path*"
+        },
+        {
+            "route": "/videos/*",
+            "serve": "/videos/:path*"
+        },
+        {
+            "route": "/favicon.ico",
+            "serve": "/favicon.ico"
+        },
+        {
+            "route": "/*",
+            "serve": "/index.html"
+        }
+    ],
     "navigationFallback": {
         "rewrite": "/index.html",
         "exclude": [
-            "/*.{png,jpg,jpeg,gif,webp,svg}",
+            "/images/*",
+            "/videos/*",
             "/favicon.ico",
-            "/assets/*",
-            "/videos/*"
+            "/*.{png,jpg,jpeg,gif,webp,svg}"
         ]
     },
     "mimeTypes": {
@@ -18,5 +36,11 @@
         ".mp4": "video/mp4",
         ".mov": "video/quicktime",
         ".webm": "video/webm"
+    },
+    "responseOverrides": {
+        "404": {
+            "rewrite": "/index.html",
+            "statusCode": 200
+        }
     }
 }
