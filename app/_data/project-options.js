@@ -4,7 +4,7 @@ export const projectOptions = {
   first: [
     {
       type: 'image',
-        src: "/images/GatorMart1.png",
+      source: "/images/GatorMart1.png",
     },
     {
       type: 'video',
@@ -12,7 +12,7 @@ export const projectOptions = {
     },
     {
       type: 'image',
-        src: "/images/Pizza1.png",
+      source: "/images/Pizza1.png",
     },
     {
       type: 'video',
@@ -22,7 +22,7 @@ export const projectOptions = {
   second: [
     {
       type: 'image',
-        src: "/images/car2.jpg",
+      source: "/images/car2.jpg",
     },    
     {
       type: 'video',
@@ -30,7 +30,7 @@ export const projectOptions = {
     },
     {
       type: 'image',
-      src: "/images/GatorMart3.png",
+      source: "/images/GatorMart3.png",
     },
     {
       type: 'video',

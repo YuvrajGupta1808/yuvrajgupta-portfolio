@@ -30,7 +30,7 @@ export const projectData = [
       },
       {
         type: 'video',
-        src: '/videos/Car1.mp4',         // adjust path for your actual video
+        src: "https://sfsu.box.com/shared/static/chdcffwmz6f8aj95qdo7bpccep0rdmrj.mp4?raw=1",
         alt: 'Car demo video'
       },
       {
@@ -39,7 +39,7 @@ export const projectData = [
         alt: 'Car side view'
       }
     ],
-    githubUrl: 'https://github.com/CSC615-2024-Fall/csc615-term-project-nhannguyensf',
+    githubUrl: '',
   },
 
   {
@@ -78,7 +78,7 @@ export const projectData = [
         alt: 'GatorMart Listing Management Screenshot'
       }
     ],
-    githubUrl: 'https://github.com/YuvrajGupta1808/gatormart',
+    githubUrl: '',
   },
 
   {
@@ -108,7 +108,7 @@ export const projectData = [
       },,
       {
         type: 'video',
-        src: '/videos/chess1.mp4',         // adjust path for your actual video
+        src: "https://sfsu.box.com/shared/static/0g4bd7fy0ml6z6rogumt38v0hpexvy5f.mov?raw=1",
         alt: 'Car demo video'
       },
       {
@@ -117,7 +117,7 @@ export const projectData = [
         alt: 'Custom Piece Variant Demo'
       }
     ],
-    githubUrl: 'https://github.com/YuvrajGupta1808/chess-game',
+    githubUrl: 'https://github.com/YuvrajGupta1808/chess',
   },
 
   {
@@ -156,7 +156,7 @@ export const projectData = [
         alt: 'PizzaPoint Menu & Cart Screenshot'
       }
     ],
-    githubUrl: 'https://github.com/YuvrajGupta1808/pizzapoint',
+    githubUrl: 'https://github.com/YuvrajGupta1808/PizzaShop',
   },
 
 ];

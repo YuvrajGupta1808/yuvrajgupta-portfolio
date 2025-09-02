@@ -10,6 +10,8 @@ import Image from 'next/image';
 
 import { ImageWrapper2 } from '../contact/components/user-details/index.styled';
 
+import { Typewriter } from 'react-simple-typewriter';
+
 
 export function Header() {
   return (
@@ -57,8 +59,20 @@ export function Header() {
         <div className='md:ml-auto'>
           <div className='mx-40 my-20'>
             <h4 className='text-[clamp(1.55em,2.5vw,2.75em)]'>
-              <span className='block'>Full-Stack</span>
-              <span className='block'> Software Developer</span>
+              <Typewriter
+                words={[
+                  'Full-Stack Developer',
+                  'Software Engineer',
+                  'Backend Developer',
+                  'UI/UX Designer',
+                ]}
+                loop={true}
+                cursor
+                cursorStyle="|"
+                typeSpeed={80}
+                deleteSpeed={50}
+                delaySpeed={2000}
+              />
               <span className='block'> San Francisco, CA</span>
             </h4>
           </div>

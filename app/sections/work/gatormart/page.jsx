@@ -15,10 +15,10 @@ import { useFollowPointer } from '@/hooks';
 import { useRef } from 'react';
 import { projectData } from '../../../_data/project-data.js';
 import {
-    Paragraph2,
-    SubTitle,
-    Title,
-    Wrapper,
+  Paragraph2,
+  SubTitle,
+  Title,
+  Wrapper,
 } from '../../../_layout/description/index.styled.js';
 
 export default function GatorMart() {
@@ -134,7 +134,7 @@ export default function GatorMart() {
               </MagneticButton>
             </Link>
 
-            <Link href="https://your-demo-url.example.com" target="_blank" rel="noopener noreferrer">
+            <Link href="https://github.com/YuvrajGupta1808" target="_blank" rel="noopener noreferrer">
               <MagneticButton
                 size="lg"
               >
@@ -143,7 +143,7 @@ export default function GatorMart() {
               </MagneticButton>
             </Link>
 
-            <Link href="/assets/RaspberryPiCar_Writeup.pdf" target="_blank" rel="noopener noreferrer">
+            <Link href="/assets/writeup.pdf" target="_blank" rel="noopener noreferrer">
               <MagneticButton
                 size="lg"
               >
