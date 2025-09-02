@@ -2,7 +2,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   // ...any other Next.js settings you already have…
-
+  output: 'export',
   images: {
     unoptimized: true,
     domains: ["sfsu.app.box.com", "public.boxcloud.com"],
